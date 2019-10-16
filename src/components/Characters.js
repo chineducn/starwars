@@ -14,7 +14,10 @@ const Characters = (props) => {
     return (
         <FlexDiv>
             {charactersList.map(icon =>
-                <Character name={icon.name} gender={icon.gender} key={icon.name} />
+                <Character
+                    person={icon}
+                    key={icon.name}
+                />
             )}
         </FlexDiv>
     )

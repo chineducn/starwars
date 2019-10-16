@@ -12,10 +12,11 @@ const CoolDiv = cutesy.div`
     width: 20%;
 `;
 
-const Character = ({ name, gender }) => {
+const Character = ({ person }) => {
     return <CoolDiv>
-        <p>Name: {name}</p>
-        <p>Gender: {gender}</p>
+        <p>Name: {person.name}</p>
+        <p>Gender: {person.gender}</p>
+        <p>Gender: {person.gender}</p>
 
     </CoolDiv>
 };
